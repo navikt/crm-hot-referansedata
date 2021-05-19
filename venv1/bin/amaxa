@@ -1,5 +1,0 @@
-#!/Users/edvardbrekke/amaxa/venv1/bin/python
-from amaxa.__main__ import main
-
-if __name__ == '__main__':
-    main()

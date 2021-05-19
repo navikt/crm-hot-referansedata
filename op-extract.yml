@@ -1,0 +1,74 @@
+version: 2
+operation:
+    -
+        sobject: ServiceTerritory
+        file: 'data/ServiceTerritory.csv'
+        field-group: smart
+        extract:
+             all: True
+    -
+        sobject: OperatingHours
+        file: 'data/OperatingHours.csv'
+        field-group: smart
+        extract:
+            all: True
+    -
+        sobject: Skill
+        file: 'data/Skill.csv'
+        field-group: smart
+        extract:
+            all: True
+    -
+        sobject: WorkType
+        file: 'data/WorkType.csv'
+        field-group: smart
+        extract:
+            all: True
+    -
+        sobject: SkillRequirement
+        file: 'data/SkillRequirement.csv'
+        field-group: smart
+        extract:
+            query: "RelatedRecord.Type = 'WorkType'"
+    -
+        sobject: FSL__Work_Rule__c
+        file: 'data/FSL__Work_Rule__c.csv'
+        field-group: smart
+        extract:
+             all: True
+    -
+        sobject: FSL__Service_Goal__c
+        file: 'data/FSL__Service_Goal__c.csv'
+        field-group: smart
+        extract:
+             all: True
+    -
+        sobject: FSL__Scheduling_Policy__c
+        file: 'data/FSL__Scheduling_Policy__c.csv'
+        field-group: smart
+        extract:
+             all: True
+    -
+        sobject: FSL__Scheduling_Policy_Work_Rule__c
+        file: 'data/FSL__Scheduling_Policy_Work_Rule__c.csv'
+        field-group: smart
+        extract:
+            descendents: True
+    -
+        sobject: FSL__Scheduling_Policy_Goal__c
+        file: 'data/FSL__Scheduling_Policy_Goal__c.csv'
+        field-group: smart
+        extract:
+            descendents: True
+    -
+        sobject: FieldServiceMobileSettings
+        file: 'data/FieldServiceMobileSettings.csv'
+        field-group: smart
+        extract:
+            all: True
+    -
+        sobject: AppExtension
+        file: 'data/AppExtension.csv'
+        field-group: smart
+        extract:
+            descendents: True

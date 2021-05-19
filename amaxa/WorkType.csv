@@ -1,3 +1,0 @@
-Id,CreatedById,CreatedDate,Description,DurationInMinutes,DurationType,EstimatedDuration,IsDeleted,LastModifiedById,LastModifiedDate,LastReferencedDate,LastViewedDate,MinimumCrewSize,Name,OwnerId,RecommendedCrewSize,ServiceReportTemplateId,ShouldAutoCreateSvcAppt,SystemModstamp
-08q3N000000DAtxQAG,0053N000003jlOnQAI,2020-11-30T07:07:05.000+0000,,60.0,Hours,1.0,False,0053N000003jlOnQAI,2020-11-30T07:07:05.000+0000,,,,Tegnspråk,0053N000003jlOnQAI,,,False,2020-11-30T07:07:05.000+0000
-08q3N000000DAtyQAG,0053N000003jlOnQAI,2020-11-30T07:07:05.000+0000,,60.0,Hours,1.0,False,0053N000003jlOnQAI,2020-11-30T07:07:05.000+0000,,,,Taktilt tegnspråk,0053N000003jlOnQAI,,,False,2020-11-30T07:07:05.000+0000

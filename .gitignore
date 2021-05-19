@@ -1,0 +1,15 @@
+venv
+*.pyc
+.vscode
+.coverage
+coverage.xml
+test-reports
+__pycache__
+.pytest_cache
+build
+dist
+*.egg-info
+.sfdx
+.tox
+docs/_build
+*.spec
