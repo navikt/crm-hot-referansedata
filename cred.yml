@@ -1,3 +1,3 @@
 version: 2
 credentials:
-    sfdx: NAV_PROD
+    sfdx: NAV_UATHOT
