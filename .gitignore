@@ -13,3 +13,4 @@ dist
 .tox
 docs/_build
 *.spec
+.DS_Store
