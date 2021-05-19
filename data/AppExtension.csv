@@ -1,0 +1,2 @@
+Id,AppExtensionLabel,AppExtensionName,CreatedById,CreatedDate,FieldServiceMobileSettingsId,InstallationUrl,IsDeleted,LastModifiedById,LastModifiedDate,LaunchValue,ScopedToObjectTypes,SystemModstamp,Type
+0Mg2o000000PB4GCAW,Endre status,Endre status,0052o000009OsBbAAK,2020-04-26T19:13:30.000+0000,0Mf2o00000000NZCAY,,False,0052o000009OsBbAAK,2020-04-26T19:13:56.000+0000,HOT_ChangeServiceAppointmentStatus,ServiceAppointment,2020-04-26T19:13:56.000+0000,Flow
